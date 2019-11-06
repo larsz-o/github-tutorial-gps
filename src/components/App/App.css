@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: #0072c8;
+  text-decoration: none;
+}
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: rgba(0,52,120, .9);
+  color: white;
+}
+button:hover {
+ color: rgba(0,52,120, .9);
+ background-color: white;
+ 
+}
+.center {
+  text-align: center;
+}
+.delete {
+  background-color: red;
+}
+.flex-box-center {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h2, h3, h4 {
+  font-weight: 400;
+}
+html, body {
+  background-color: #f5f4f0;
+  background-image: url('./notebook.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: 'Catamaran', sans-serif;
+}
+.icon {
+  height: 25px;
+  margin-right: 10px;
+}
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #0072c8;
+  font-size: 1.1em;
+  color: gray;
+  font-weight: 400;
+}
+input[type=text]:focus{
+  outline: none;
+  border-bottom: 2px solid gold;
+}
+.layer {
+  background-color: rgba(255, 255, 255, .9);
+  width: 100%;
+  margin-top: 25vh;
+  text-align: center;
+  color: rgba(0,52,120, .9);
+  border-radius: 5px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.logo-space {
+  background-color: rgba(0,52,120, .9);
+}
+ul {
+  list-style-type: none;
+}
+/* For mobile: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
