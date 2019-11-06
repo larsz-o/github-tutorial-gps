@@ -5,7 +5,7 @@ class ViewLayer extends Component {
         super(props);
         this.state = {
             // add your favorite pizza topping to this array so that it always appears first in the list
-            toppings: ['pepperoni'],
+            toppings: ['pepperoni', 'onions', 'pineapple',],
             welcomeMessage: '',
             name: '',
             displayName: '',
