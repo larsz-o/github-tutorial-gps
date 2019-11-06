@@ -22,6 +22,9 @@ button:hover {
 .center {
   text-align: center;
 }
+.container {
+  margin-bottom: 10vh;
+}
 .delete {
   background-color: red;
 }
