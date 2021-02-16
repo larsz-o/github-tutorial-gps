@@ -54,7 +54,7 @@ input[type=text] {
   border: none;
   border-bottom: 1px solid #0072c8;
   font-size: 1.1em;
-  color: gray;
+  color: rgba(0,52,120, 1);
   font-weight: 400;
 }
 input[type=text]:focus{
@@ -69,6 +69,7 @@ input[type=text]:focus{
   color: rgba(0,52,120, .9);
   border-radius: 5px;
   padding: 10px;
+  margin-bottom: 10vh;
 }
 li {
   display: flex;
